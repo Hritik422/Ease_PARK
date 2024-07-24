@@ -190,7 +190,7 @@
                   }
                 </script>
               <div class="file">
-              <input type="file" name="rc" value="fileupload" id="fileupload" accept="image/*" onchange="loadFi(event)"> 
+              <input type="file" name="rc" value="fileupload" id="fileupload" accept="image/*" onchange="loadFi(event)" required> 
                 <label for="rc"> <b>*Upload your vehicle registration certificate.</b></label> <br><br>  
                 <p><img id="ou" width="200"/></p> 
                 <script>
@@ -199,7 +199,7 @@
                       image.src=URL.createObjectURL(event.target.files[0]);
                   };
               </script>                   
-              <input type="file" name="dl" value="fileupload" id="fileupload" accept="image/*" onchange="loadFil(event)"> 
+              <input type="file" name="dl" value="fileupload" id="fileupload" accept="image/*" onchange="loadFil(event)" required> 
                     <label for="dl"><b> *Upload your driving license.</b></label> <br><br>
                     <p><img id="out" width="200"/></p> 
                     <script>
@@ -208,7 +208,7 @@
                           image.src=URL.createObjectURL(event.target.files[0]);
                       };
                   </script>                   
-              <input type="file" name="card" value="fileupload" id="fileupload" accept="image/*" onchange="loadFile(event)"> 
+              <input type="file" name="card" value="fileupload" id="fileupload" accept="image/*" onchange="loadFile(event)" required> 
               <label for="card"> <b>*Upload your college id card.</b></label>
               <p><img id="output" width="200"/></p> 
                     <script>
@@ -217,7 +217,7 @@
                           image.src=URL.createObjectURL(event.target.files[0]);
                       };
                   </script>
-            <input type="file" name="pic" value="fileupload" id="fileupload" accept="image/*" onchange="loadFilee(event)"> 
+            <input type="file" name="pic" value="fileupload" id="fileupload" accept="image/*" onchange="loadFilee(event)" required> 
               <label for="pic"> <b>*Upload your passport size photo.</b></label>
               <p><img id="o" width="200"/></p> 
                     <script>
